@@ -1,0 +1,68 @@
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+
+.content-block{
+    
+    padding:0 !important;
+}
+
+
+.list-block{
+    text-align: center;
+}
+
+
+.button {
+background: #f15d30 !important;
+color:aliceblue !important;   
+border: 2px solid #222426 !important;
+height:50px;    
+padding: 12px;
+font-size: 16px !important;    
+}
+
+#stations{
+    border: 1px solid gray;
+    padding-left:30%;
+}
+
+#stations:after{
+    content: '\25BD';
+}
+
+.philaTable
+            {
+                font-size: 12px !important;
+                width: 100% !important;
+            }
+
+.philaTable th{
+    background: #f15d30;
+   color:aliceblue;
+}
+           .philaTable tr:nth-child(even){
+            
+                background-color: #f15d30;
+                color:aliceblue;
+                
+            }
+
+           .philaTable tr:nth-child(odd){
+            
+                background-color:#01559f;
+                color:aliceblue;
+            }
+
+            
+             table, th, td
+            {
+                border: 1px solid #222426;
+                border-collapse: collapse;
+                padding:5px;
+                 color:aliceblue;
+            }
+
+
